@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stone Touch Creations | Google Maps Optimization</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom right, #151515, #1f1f1f);
+      color: #f1f1f1;
+      overflow-x: hidden;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem;
+      text-align: center;
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      0% {opacity: 0; transform: translateY(20px);}
+      100% {opacity: 1; transform: translateY(0);}
+    }
+    img.logo {
+      width: 280px;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      color: #00bcd4;
+      font-size: 2.8rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #ccc;
+    }
+    .cta-button {
+      display: inline-block;
+      margin: 2rem 0;
+      padding: 1rem 2rem;
+      background: #00acc1;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    .cta-button:hover {
+      background: #4dd0e1;
+      color: #000;
+    }
+    .section {
+      margin: 3rem 0;
+      text-align: left;
+      animation: fadeIn 1.5s ease-in;
+    }
+    .section h2 { color: #4dd0e1; }
+    ul { list-style: none; padding: 0; }
+    ul li::before {
+      content: '✔';
+      margin-right: 8px;
+      color: #00bcd4;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+      color: #ddd;
+    }
+    .plans-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 2rem;
+    }
+    .plans-table th, .plans-table td {
+      border: 1px solid #333;
+      padding: 1rem;
+      text-align: left;
+    }
+    .plans-table th {
+      background-color: #222;
+      color: #00bcd4;
+    }
+    .plans-table td {
+      background-color: #2b2b2b;
+      color: #eee;
+    }
+    .testimonial {
+      background: #1c1c1c;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+    .testimonial p {
+      font-style: italic;
+      color: #eee;
+    }
+    .contact {
+      margin-top: 3rem;
+      font-size: 0.95rem;
+      color: #bbb;
+    }
+    a { color: #4fc3f7; }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.85rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://i.ibb.co/8hW1tFz/Chat-GPT-Image-29-2025-07-55-25.png" alt="Stone Touch Creations Logo" class="logo">
+    <h1>Boost Your Business on Google Maps</h1>
+    <p>If you're not ranking in the top 3 on Google Maps, you're missing out on local customers. I help small businesses across the U.S. get more visibility, more calls, and more customers with Google Business Profile optimization.</p>
+    <a class="cta-button" href="https://forms.gle/qbtgw82Tz4YHJUh68" target="_blank">Get Your Free Audit</a>
+
+    <div class="section">
+      <h2>Services Offered</h2>
+      <ul>
+        <li>Setup & Claim Google Business Profile</li>
+        <li>Profile Optimization (Images, Hours, Categories)</li>
+        <li>Review Management & Responses</li>
+        <li>Monthly Insights & Local Ranking Boost</li>
+        <li>Competitor Analysis</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Plans</h2>
+      <table class="plans-table">
+        <thead>
+          <tr>
+            <th>Plan</th>
+            <th>Details</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>🎁 Free Plan</td>
+            <td>Basic Business Audit (5-minute analysis)</td>
+            <td>$0</td>
+          </tr>
+          <tr>
+            <td>💼 Starter Plan</td>
+            <td>Google Profile Setup + Business Details Update</td>
+            <td>$25</td>
+          </tr>
+          <tr>
+            <td>🚀 Growth Plan</td>
+            <td>Full Optimization + 7 Images + Categories + Weekly Insights</td>
+            <td>$60</td>
+          </tr>
+          <tr>
+            <td>📈 Premium Plan</td>
+            <td>Everything in Growth + Review Management + Competitor Tracking</td>
+            <td>$110</td>
+          </tr>
+          <tr>
+            <td>🗨️ Add Reviews</td>
+            <td>We add real-looking custom comments to boost trust</td>
+            <td>$3 per review (minimum 5)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="testimonial">
+      <h3>What Clients Say</h3>
+      <p>"Thanks to Stone Touch Creations, my business jumped to the top 3 on Google Maps in just 2 weeks!" – Sarah, NY</p>
+    </div>
+
+    <div class="contact">
+      <p>Email: <a href="mailto:stonetouchcreations@gmail.com">stonetouchcreations@gmail.com</a></p>
+      <p>WhatsApp: <a href="https://wa.me/YOUR_NUMBER" target="_blank">Click to Chat</a></p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Stone Touch Creations. All rights reserved.
+  </footer>
+</body>
+</html>
